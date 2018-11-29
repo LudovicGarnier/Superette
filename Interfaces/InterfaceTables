@@ -1,0 +1,14 @@
+package Interfaces;
+
+import MesExceptions.ErreurSaisieException;
+
+public interface InterfaceTables<TypeElementTable, TypeIndex> {
+
+	public void ajouter(TypeElementTable element) throws ErreurSaisieException;
+
+	public void supprimer(TypeIndex index);
+
+	public TypeElementTable retourner(TypeIndex index);
+	
+	public int taille();
+}
