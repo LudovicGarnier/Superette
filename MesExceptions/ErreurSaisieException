@@ -1,0 +1,9 @@
+package MesExceptions;
+
+public class ErreurSaisieException extends Exception {
+
+	public ErreurSaisieException(String s) {
+		super(s);
+	}
+
+}
